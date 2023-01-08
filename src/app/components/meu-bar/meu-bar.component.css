@@ -1,0 +1,31 @@
+#menu-bar ul {
+    display: flex;
+    gap: 25.6rem;
+    font-size: 3.2rem;
+}
+
+@media screen and (max-width: 75rem) {
+    #menu-bar ul {
+        gap: 12.8rem;
+    }
+}
+
+@media screen and (max-width: 62rem) {
+    #menu-bar ul {
+        gap: 6.4rem;
+    }
+}
+
+@media screen and (max-width: 48rem) {
+    #menu-bar ul {
+        gap: 3.2rem;
+        font-size: 2.4rem;
+    }
+}
+
+@media screen and (max-width: 36rem) {
+    #menu-bar ul {
+        gap: 1rem;
+        font-size: 1.6rem;
+    }
+}

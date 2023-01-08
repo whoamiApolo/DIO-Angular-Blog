@@ -1,0 +1,18 @@
+<section id="container">
+  <article class="card-photo">
+    <img src="{{ photoCover }}" alt="" loading="lazy" />
+  </article>
+
+  <article class="big-card-title">
+    <h2>
+      <a [routerLink]="['content', Id]" href="#"> {{ cardTitle }}</a>
+    </h2>
+  </article>
+  
+
+  <article class="big-card-description">
+    <p>
+    {{ cardDescription }}
+    </p>
+  </article>
+</section>

@@ -1,0 +1,31 @@
+#tema {
+    padding-bottom: 1.6rem;
+}
+
+#container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    gap: 1.6rem;
+    padding: 0 3.6rem;
+    max-width: 132rem;
+    margin: 0 auto;
+}
+
+@media  screen and (max-width: 62rem) {
+    #container {
+    grid-template-columns: 1fr;
+    }
+}
+
+
+@media  screen and (max-width: 48rem) {
+    #container {
+        padding: 0 2.4rem;
+    }
+}
+
+@media  screen and (max-width: 36rem) {
+    #container {
+        padding: 0 1.6rem;
+    }
+}

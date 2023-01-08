@@ -1,1 +1,48 @@
-/* You can add global styles to this file, and also import other style files */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    background: var(--corDeFundo);
+    color: var(--fonte);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+body {
+    background-color: var(--red);
+}
+
+:root {
+    --fonte: #fff;
+    --corDeFundo: #111111;
+}
+
+a {
+    text-decoration: none;
+}
+
+li {
+    list-style: none;
+}
+
+p {
+    font-size: 1.6rem;
+    text-align: justify;
+}
+
+footer {
+    font-size: 1.6rem;
+}
+
+@media screen and (max-width: 36rem){    
+    p {
+        font-size: 1.4rem;
+    }
+    
+    footer {
+        font-size: 1.2rem;
+    } 
+}

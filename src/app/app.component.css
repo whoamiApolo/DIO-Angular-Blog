@@ -1,0 +1,24 @@
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 10vh;
+}
+
+footer {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 10vh;
+    gap: 1rem;
+}
+
+footer::after {
+    content: '\01F919 \01F3FE';
+}
+
+@media screen and (max-width: 48rem) {
+    header {
+        height: 10vh;
+    }
+}

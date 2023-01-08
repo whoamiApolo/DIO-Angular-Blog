@@ -1,0 +1,7 @@
+section {
+    text-align: center;
+}
+
+section::after {
+    content: ' \01F919 \01F3FE';
+}

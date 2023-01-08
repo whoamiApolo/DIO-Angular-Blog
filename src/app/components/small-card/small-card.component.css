@@ -1,0 +1,44 @@
+#small-card-container {
+  border-top: .1rem solid white;
+  border-bottom: .1rem solid white;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  place-items: center;
+}
+
+#small-card-container .small-card-banner {
+  min-width: 20rem;
+  max-width: 60rem;
+}
+
+.small-card-banner img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  object-position: center top;
+}
+
+.small-card-title {
+  margin: 1.6rem 0;
+}
+
+#small-card-description {
+  margin: 1.6rem 0 6.4rem;
+}
+
+#small-card-description p {
+  color: grey;
+}
+
+@media screen and (max-width: 48rem) {
+  #small-card-container {
+    display: flex;
+    flex-direction: column;
+    border: none;
+  }
+
+  .small-card-banner {
+    max-width: 50rem;
+    max-height: 25rem;
+  }
+}

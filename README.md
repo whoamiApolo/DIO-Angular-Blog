@@ -1,27 +1,19 @@
-# AngularBlog
+![size](https://img.shields.io/github/repo-size/whoamiApolo/DIO-Angular-Blog)
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 15.0.4.
+![banner]()
 
-## Development server
+# Blog
+Desenvolvimento de um Blog utilizando como ferramenta principal o framework Angular.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+obs.: Eu não estava muito criativo no momento, então achei interessante anime como o tema principal.
 
-## Code scaffolding
+# Execução do Projeto
+Para rodar o projeto, basta executar o comando `ng serve`. Em seguida, abra um navegador e acesse `http://localhost:4200/`. No mais, o projeto estará disponível para visualização no link a seguir: []().
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+# Status do Projeto
+🚧 Concluído. Porém, futuramente há possibilidade de novas implementações... 🚧
 
-## Build
+# Licença
+Este projeto está sob a licença MIT - veja o arquivo ![LICENSE.md]() para detalhes.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Feito com &hearts; por Apolinário.
